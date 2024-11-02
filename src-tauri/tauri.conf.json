@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "k-equals-two",
+        "title": "k Equals Two",
         "width": 800,
         "height": 600
       }
