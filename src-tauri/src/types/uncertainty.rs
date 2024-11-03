@@ -1,7 +1,7 @@
 use std::f64;
 
 // Assumed probability distribution
-enum Distribution {
+pub enum Distribution {
     Rectangular,
     Triangular,
     //  Holds a custom divisor for normal distribution (likely 1, 2 or 3)
@@ -25,10 +25,10 @@ impl Distribution {
 }
 
 pub struct UncertaintyTerm {
-    name: String,
-    description: String,
-    value: f64,
-    distribution: Distribution,
+    pub name: String,
+    pub description: String,
+    pub value: f64,
+    pub distribution: Distribution,
 }
 
 impl UncertaintyTerm {
