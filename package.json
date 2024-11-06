@@ -15,10 +15,12 @@
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.27.0"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^2",
+    "@types/node": "^22.9.0",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.2.1",

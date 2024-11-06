@@ -1,11 +1,10 @@
-import { invoke } from "@tauri-apps/api/core";
+import router from "@/lib/router";
+import { RouterProvider } from "react-router-dom";
 
 function App() {
   return (
-    <main className="flex flex-col items-center justify-center w-full h-screen">
-      <h1 className="text-3xl font-bold text-black font-sans">
-        Welcome to K = 2
-      </h1>
+    <main className="bg-gray-400">
+      <RouterProvider router={router} />
     </main>
   );
 }
