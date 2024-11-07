@@ -1,0 +1,4 @@
+echo Running tests before pushing
+npm test
+
+cargo test --manifest-path src-tauri/Cargo.toml
