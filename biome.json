@@ -10,8 +10,7 @@
 		"ignore": ["src-tauri/"]
 	},
 	"formatter": {
-		"enabled": true,
-		"indentStyle": "tab"
+		"enabled": false
 	},
 	"organizeImports": {
 		"enabled": true
