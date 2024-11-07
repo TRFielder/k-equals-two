@@ -12,4 +12,14 @@ describe("Welcome", () => {
 
 		expect(getByRole("heading", { name: "Welcome to k = 2" })).toBeVisible()
 	})
+
+	test("Should render the button correctly", () => {
+		const { getByRole } = render(
+			<MemoryRouter>
+				<Welcome />
+			</MemoryRouter>
+		)
+
+		expect(getByRole("link", { name: "Begin" })).toBeVisible()
+	})
 })
