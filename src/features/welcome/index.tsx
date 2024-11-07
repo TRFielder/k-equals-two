@@ -4,6 +4,6 @@ const Welcome = () => (
 			Welcome to <em>k</em> = 2
 		</h1>
 	</article>
-);
+)
 
-export default Welcome;
+export default Welcome
