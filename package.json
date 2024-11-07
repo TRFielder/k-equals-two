@@ -14,7 +14,8 @@
 		"lint:husky": "npx @biomejs/biome lint --error-on-warnings ./src",
 		"lint:fix-safe": "npx @biomejs/biome lint --write ./src",
 		"prepare": "husky",
-		"test": "vitest"
+		"test": "vitest",
+		"test:husky": "vitest run"
 	},
 	"dependencies": {
 		"@tauri-apps/api": "^2",
